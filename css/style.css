@@ -1,0 +1,612 @@
+/*font-family: 'Source Sans Pro', sans-serif;*/
+*{
+	margin: 0;
+	padding-bottom: 0;
+}
+
+/******************************
+		header part css
+*******************************/
+header{
+	width: 100%;
+	background: url(../img/header.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 115vh;
+}
+.header-design{
+	width: 1140px;
+	margin: auto auto;
+}
+.navbar{
+	background-color: transparent !important;
+	padding: 16px 0px;
+}
+.nav-item a{
+	color: white !important;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	margin-left: 16px;
+}
+.nav-item a:hover{
+	color: red !important;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	margin-left: 16px;
+	background: url(../img/divider.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	/*background-size: contain;*/
+}
+.banner-left h3{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #008ed6;
+}
+.banner-left h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 48px;
+	color: white;
+}
+.banner-left p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: grey;
+	text-align: justify;
+}
+.banner-left{
+	padding: 74spx 0px;
+}
+.banner{
+	/*padding: 70px 0px;*/
+	padding-top: 100px;
+}
+.banner-img img{
+	height: 492px;
+}
+.banner-left button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 23px;
+    color: white;
+    background-color: #008ed6;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 18px;
+    margin-right: 10px;
+}
+.view-btn{
+	border: 1px solid white !important;
+    border-radius: 5px;
+    padding: 10px 23px;
+    color: white !important;
+    background-color: transparent !important;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 18px;
+    margin-right: 10px;
+}
+.banner-left button:hover{
+	border: transparent !important;
+    border-radius: 5px;
+    padding: 10px 23px;
+    color: white !important;
+    background: linear-gradient( to right, #5185ff, #ff9f51) !important;
+    font-size: 14px; 
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 18px;
+    margin-right: 10px;
+}
+
+
+/******************************
+		feature part css
+*******************************/
+
+.fea-top{
+	text-align: center;
+}
+.fea-top h3{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #008ed6;
+	padding-top: 30px;
+}
+.fea-top h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 36px;
+}
+.fea-top img{
+	width: 100px;
+	height: 3px;
+	margin: 24px auto;
+	margin-bottom: 50px;
+}
+.fea-btm{
+	text-align: center;
+}
+.f-section{
+	width: 1140px;
+	margin: auto auto;
+}
+.f-btm h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+}
+.f-btm p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: grey;
+}
+.f-btm i{
+	font-size: 30px;
+    color: #008ed6;
+    border: 1px solid grey;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+.features{
+	border-bottom: 1px solid grey;
+	margin-bottom: 80px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+/******************************
+		device part css
+*******************************/
+.device-section{
+	padding-bottom: 48px;
+}
+.dev-sec{
+	width: 1140px;
+	margin: auto auto;
+}
+.dev-rgt h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #008ed6;
+}
+.dev-rgt h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	font-size: 36px;
+}
+.dev-rgt p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	font-size: 18px;
+}
+.dev-rgt img{
+    margin-right: 20px;
+}
+.dev-rgt .chng img{
+    margin-right: 26px !important;
+}
+.dev-rgt{
+    padding: 100px 0px;
+}
+
+/******************************
+		phone part css
+*******************************/
+.phn-sec{
+	width: 1140px;
+	margin: auto auto;
+}
+.phn-sec-left{
+	padding: 100px 0px;
+}
+/*.phn-sec-rgt{
+	padding: 100px 0px;
+}*/
+.phn-sec-left h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #008ed6;
+}
+.phn-sec-left h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	font-size: 36px;
+}
+.phn-sec-left p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	font-size: 18px;
+}
+.phn-sec-rgt img{
+	width: 600px;
+	padding-top: 50px;
+}
+.phn{
+	background-color: #f2f2f2;
+}
+/******************************
+		pricing part css
+*******************************/
+.p-sec-top{
+	text-align: center;
+}
+.p-sec-top h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #008ed6;
+	padding-top: 30px;
+}
+.p-sec-top h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 36px;
+	color: white;
+}
+.p-sec-top img{
+	width: 100px;
+	height: 3px;
+	margin: 24px auto;
+	margin-bottom: 50px;
+}
+.p-section{
+	width: 1140px;
+	margin: auto auto;
+}
+.p-sec-btm p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 24px;
+	font-style: italic;
+	color: white;
+}
+.p-sec-btm-img h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+}
+.p-sec-btm-img h3{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+}
+.pricing-section{
+	background: url(../img/pricing.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0px;
+    padding-bottom: 115px;
+}
+/******************************
+		theme part css
+*******************************/
+.theme{
+	width: 100%;
+	background-color: black;
+}
+.theme-section{
+	width: 1140px;
+	margin: auto auto;
+	padding: 30px 0px;
+}
+.theme-left{
+	color: white;
+}
+.theme-left h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 36px;
+	display: inline-block;
+}
+.theme-left span{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: lighter;
+	font-size: 36px;
+}
+.theme-rgt button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 23px;
+    color: white;
+    background-color: #008ed6;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 18px;
+    margin-right: 10px;
+}
+.theme-rgt-view{
+	border: 1px solid white !important;
+    border-radius: 5px;
+    padding: 10px 23px;
+    color: white !important;
+    background-color: transparent !important;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+.theme-rgt button:hover{
+	border: transparent !important;
+    border-radius: 5px;
+    padding: 10px 23px;
+    color: white !important;
+    background: linear-gradient( to right, #5185ff, #ff9f51) !important;
+    font-size: 14px; 
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+/******************************
+		plan part css
+*******************************/
+.plan-top{
+	text-align: center;
+}
+.plan-top h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #008ed6;
+	padding-top: 30px;
+}
+.plan-top h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 36px;
+}
+.plan-top img{
+	width: 100px;
+	height: 3px;
+	margin: 24px auto;
+	margin-bottom: 50px;
+}
+.plan-section{
+	width: 1140px;
+	margin: auto auto;
+	padding: 36px 0px;
+}
+.plan-card{
+	text-align: center;
+}
+.card-header h3{
+	font-weight: bold;
+	font-size: 24px;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 4px;
+}
+.card-header{
+	background-color: transparent;
+}
+.card-footer{
+	background-color: transparent;
+}
+.card-body{
+	padding: 32px;
+}
+.card-body h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 48px;
+	position: relative;
+}
+.card-body h2::before{
+	position: absolute;
+    content: '$';
+    top: 8px;
+    left: 64px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.special h2::before{
+	position: absolute;
+    content: '$';
+    top: 8px;
+    left: 76px;
+    font-size: 24px;
+    font-weight: bold;
+}
+}
+.card-body h3{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: grey;
+	margin-top: -14px;
+}
+.card-footer p{
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: grey;
+    padding: 18px;
+    padding-top: 26px;
+}
+.card-footer button{
+	font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #008ed6;
+    padding: 8px 26px;
+    /* padding-top: 26px; */
+    font-weight: bold;
+    border: 1px solid grey;
+    background-color: transparent;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+.card-footer span{
+	color: #008ed6;
+}
+.plan-card:hover .card-header h3{
+	color: #008ed6;
+}
+.plan-card:hover .card-body{
+	background-color: #008ed6;
+	color: white;
+}
+.plan-card:hover .card-body h3{
+	color: white;
+}
+.plan-card:hover .card-footer button{
+	background-color: #008ed6;
+	border: none;
+	color: white;
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+/******************************
+		contact us part css
+*******************************/
+.contact{
+	width: 100%;
+	background-color: #ededed;
+}
+.contact-top{
+	text-align: center;
+}
+.contact-top h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #008ed6;
+	padding-top: 30px;
+}
+.contact-top h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 36px;
+}
+.contact-top img{
+	width: 100px;
+	height: 3px;
+	margin: 24px auto;
+	margin-bottom: 50px;
+}
+.contact-section{
+	width: 1140px;
+	margin: auto auto;
+	padding: 36px 0px;
+}
+.contact-icon{
+	text-align: center;
+}    
+.contact-icon i{
+	font-size: 30px;
+    color: #008ed6;
+    padding-bottom: 18px;
+}
+.contact-icon h3{
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: grey;
+}
+.contact-form{
+	background-color: black;
+    width: 60%;
+    margin: auto;
+    padding: 40px;
+    margin: 54px auto;
+}
+.con-form input{
+	background-color: transparent;
+    padding: 8px;
+    margin-top: 17px;
+    border: 1px solid #959090;
+}
+.con-form1 input{
+	background-color: transparent;
+    padding: 8px;
+    margin-top: 17px;
+    border: 1px solid #959090;
+    padding-bottom: 127px;
+}
+.con-form1 button{
+	border: none;
+    margin-left: 155px;
+    margin-top: 18px;
+    padding: 13px 24px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #008ed6;
+}
+.con-form1 button:hover{
+	border: none;
+    margin-left: 155px;
+    margin-top: 18px;
+    padding: 13px 24px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background: linear-gradient(to left, blue, black) !important;
+}
+.con-f{
+	z-index: 1 !important;
+}
+.map{
+	margin-top: -172px;
+    z-index: -9999 !important;
+}
+/******************************
+		footer part css
+*******************************/
+.footer{
+	width: 100%;
+	margin: auto auto;
+	background-color: black;
+}
+.footer-section{
+	width: 1140px;
+	margin: auto auto;
+	text-align: center;
+	padding: 30px 0px;
+}
+.copyright h3{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	color: grey;
+	padding-top: 18px;
+}
+.social-media i{
+	color: grey;
+    font-size: 22px;
+    margin: 0px 12px;
+    transition: 0.5s;
+}
+.social-media i:hover{
+	color: #008ed6;
+    font-size: 22px;
+    margin: 0px 12px;
+    transform: scale(1.2);
+    transition: 0.5s;
+}
